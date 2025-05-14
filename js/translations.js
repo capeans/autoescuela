@@ -1,4 +1,4 @@
-
+window.translations = 
 const translations = {
   es: {
     inicio: "Inicio",

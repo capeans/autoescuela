@@ -1,56 +1,57 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contacto - Granada SOM</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <script defer src="js/script.js"></script>
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contacto - Granada SOM</title>
+<link href="css/styles.css" rel="stylesheet"/>
+<script defer="" src="js/script.js"></script>
+<script defer="True" src="js/translations.js"></script></head>
 <body>
-  <nav class="navbar">
-    <a href="index.html" data-i18n="inicio">Inicio</a>
-    <a href="servicios.html" data-i18n="servicios">Servicios</a>
-    <a href="precios.html" data-i18n="precios">Precios</a>
-    <a href="politica.html" data-i18n="politica">Política</a>
-    <a href="contacto.html" data-i18n="contacto">Contacto</a>
-    <select id="languageSwitcher">
-      <option value="es">ES</option>
-      <option value="en">EN</option>
-      <option value="pt">PT</option>
-    </select>
-  </nav>
+<nav class="navbar">
+<a data-i18n="inicio" href="index.html">Inicio</a>
+<a data-i18n="servicios" href="servicios.html">Servicios</a>
+<a data-i18n="precios" href="precios.html">Precios</a>
+<a data-i18n="politica" href="politica.html">Política</a>
+<a data-i18n="contacto" href="contacto.html">Contacto</a>
 
-  <main class="contenido contacto-grid columnas-contacto">
-    <div class="info-contacto igual-altura">
-      <h1 data-i18n="contacto">Contacto</h1>
-      <p><strong>Telephone:</strong> 07592 152593</p>
-      <p><strong>Email:</strong> granada-som@hotmail.com <em>(information only)</em></p>
+<select id="languageSwitcher">
+<option value="es">🇪🇸 Español</option>
+<option value="en">🇬🇧 English</option>
+<option value="it">🇮🇹 Italiano</option>
+<option value="pt">🇵🇹 Português</option>
+<option value="fr">🇫🇷 Français</option>
+</select>
 
-      <h2>Opening Hours</h2>
-      <table class="tabla-horario">
-        <tr><td>Monday</td><td>9:00 - 18:00</td></tr>
-        <tr><td>Tuesday</td><td>9:00 - 18:00</td></tr>
-        <tr><td>Wednesday</td><td>9:00 - 18:00</td></tr>
-        <tr><td>Thursday</td><td>9:00 - 18:00</td></tr>
-        <tr><td>Friday</td><td>9:00 - 18:00</td></tr>
-      </table>
-    </div>
-
-    <div class="formulario-contacto igual-altura">
-      <h2>Booking Form</h2>
-      <form id="bookingForm">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-      <div id="formMessage" style="margin-top: 1rem; display: none; font-weight: bold;"></div>
-    </div>
-  </main>
-
-  <footer class="footer-fijo">
-    <p>&copy; 2025 Granada SOM</p>
-  </footer>
+</nav>
+<main class="contenido contacto-grid columnas-contacto">
+<div class="info-contacto igual-altura">
+<h1 data-i18n="contacto">Contacto</h1>
+<p><strong>Telephone:</strong> 07592 152593</p>
+<p><strong>Email:</strong> granada-som@hotmail.com <em>(information only)</em></p>
+<h2>Opening Hours</h2>
+<table class="tabla-horario">
+<tr><td>Monday</td><td>9:00 - 18:00</td></tr>
+<tr><td>Tuesday</td><td>9:00 - 18:00</td></tr>
+<tr><td>Wednesday</td><td>9:00 - 18:00</td></tr>
+<tr><td>Thursday</td><td>9:00 - 18:00</td></tr>
+<tr><td>Friday</td><td>9:00 - 18:00</td></tr>
+</table>
+</div>
+<div class="formulario-contacto igual-altura">
+<h2>Booking Form</h2>
+<form id="bookingForm">
+<input name="name" placeholder="Your Name" required="" type="text"/>
+<input name="email" placeholder="Your Email" required="" type="email"/>
+<textarea name="message" placeholder="Your Message" required="" rows="5"></textarea>
+<button type="submit">Send</button>
+</form>
+<div id="formMessage" style="margin-top: 1rem; display: none; font-weight: bold;"></div>
+</div>
+</main>
+<footer class="footer-fijo">
+<p>© 2025 Granada SOM</p>
+</footer>
 </body>
 </html>
