@@ -8,66 +8,57 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-  <header class="fixed-header">
-    <div class="nav-wrapper">
-      <h1 class="logo">Granada SOM</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" data-i18n="nav.inicio">Inicio</a></li>
-          <li><a href="servicios.html" data-i18n="nav.servicios">Servicios</a></li>
-          <li><a href="precios.html" data-i18n="nav.precios">Precios</a></li>
-          <li><a href="politica.html" data-i18n="nav.politica">Política</a></li>
-          <li><a href="contacto.html" data-i18n="nav.contacto">Contacto</a></li>
-        </ul>
-        <select id="language-switcher">
-          <option value="es">ES</option>
-          <option value="en">EN</option>
-          <option value="pt">PT</option>
-        </select>
-      </nav>
-    </div>
+  <header class="nav-wrapper">
+    <h1 class="logo">Granada SOM</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#" data-i18n="nav.inicio">Inicio</a></li>
+        <li><a href="servicios.html" data-i18n="nav.servicios">Servicios</a></li>
+        <li><a href="precios.html" data-i18n="nav.precios">Precios</a></li>
+        <li><a href="politica.html" data-i18n="nav.politica">Política</a></li>
+        <li><a href="contacto.html" data-i18n="nav.contacto">Contacto</a></li>
+      </ul>
+      <select id="language-switcher">
+        <option value="es">ES</option>
+        <option value="en">EN</option>
+        <option value="pt">PT</option>
+        <option value="fr">FR</option>
+        <option value="de">DE</option>
+      </select>
+    </nav>
   </header>
 
   <section class="hero">
-    <img src="images/chica-autoescuela.jpg" alt="Hero Autoescuela Londres" class="hero-img">
+    <img src="images/chica-autoescuela.jpg" alt="Autoescuela Londres" class="hero-img">
     <div class="hero-overlay">
-      <h2 data-i18n="hero.titulo">Autoescuela en Londres</h2>
-      <p data-i18n="hero.descripcion">Te ayudamos a conseguir tu carnet británico con clases prácticas, apoyo teórico y atención personalizada.</p>
-      <a href="contacto.html" class="btn" data-i18n="hero.boton">Reserva tu clase</a>
+      <h2 data-i18n="hero.titulo">Aprende a conducir con nosotros</h2>
+      <p data-i18n="hero.descripcion">Formación profesional en tu idioma, con vehículos modernos y profesores expertos.</p>
+      <a href="contacto.html" class="btn" data-i18n="hero.boton">Contáctanos</a>
     </div>
   </section>
 
-  <section class="highlights">
-    <h2 class="section-title" data-i18n="destacados.titulo">Ventajas de aprender con nosotros</h2>
-    <div class="cards-grid">
-      <div class="card">
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature">
         <img src="images/instructor.jpg" alt="Instructor">
-        <h3 data-i18n="destacados.1">Profesores titulados</h3>
-        <p data-i18n="destacados.1.desc">Nuestros instructores están certificados en Reino Unido y tienen experiencia con estudiantes internacionales.</p>
+        <h3 data-i18n="feature.1">Profesores certificados</h3>
+        <p data-i18n="feature.1.desc">Instructores con experiencia local y formación homologada.</p>
       </div>
-      <div class="card">
-        <img src="images/vehiculo.jpg" alt="Vehículos">
-        <h3 data-i18n="destacados.2">Vehículos automáticos y manuales</h3>
-        <p data-i18n="destacados.2.desc">Elige el tipo de vehículo que más se adapte a ti. Flota moderna y segura.</p>
+      <div class="feature">
+        <img src="images/vehiculo.jpg" alt="Coches">
+        <h3 data-i18n="feature.2">Vehículos modernos</h3>
+        <p data-i18n="feature.2.desc">Aprende en coches cómodos, seguros y adaptados a ti.</p>
       </div>
-      <div class="card">
-        <img src="images/examen.jpg" alt="Aprobado">
-        <h3 data-i18n="destacados.3">Altas tasas de aprobado</h3>
-        <p data-i18n="destacados.3.desc">Más del 90% de nuestros alumnos aprueban a la primera. ¡Tú puedes ser el siguiente!</p>
+      <div class="feature">
+        <img src="images/examen.jpg" alt="Éxito">
+        <h3 data-i18n="feature.3">Aprobados garantizados</h3>
+        <p data-i18n="feature.3.desc">Metodología efectiva para que apruebes a la primera.</p>
       </div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <div class="cta-container">
-      <h2 data-i18n="cta.titulo">¿Listo para empezar?</h2>
-      <p data-i18n="cta.descripcion">Contáctanos hoy mismo y da el primer paso hacia tu carnet de conducir en Londres.</p>
-      <a href="contacto.html" class="btn" data-i18n="cta.boton">Empieza ahora</a>
     </div>
   </section>
 
   <footer>
-    <div class="container">
+    <div class="footer-content">
       <p>&copy; 2025 Granada SOM - <span data-i18n="footer.todos">Todos los derechos reservados.</span></p>
     </div>
   </footer>
