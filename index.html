@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Granada SOM - Autoescuela</title>
+  <title data-i18n="title">Granada SOM - Autoescuela</title>
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
 </head>
@@ -29,7 +29,11 @@
   </header>
 
   <section class="hero">
-    <img src="images/chica-autoescuela.jpg" alt="Chica en coche" class="hero-img" />
+    <div class="hero-slider">
+      <img src="images/chica-autoescuela.jpg" alt="Chica en coche" class="hero-img active" />
+      <img src="images/vehiculo.jpg" alt="Vehículo de autoescuela" class="hero-img" />
+      <img src="images/instructor.jpg" alt="Instructor" class="hero-img" />
+    </div>
     <div class="hero-content overlay">
       <h2 data-i18n="hero.titulo">Autoescuela en Granada</h2>
       <p data-i18n="hero.descripcion">Aprende a conducir con confianza. Clases prácticas y teóricas adaptadas a ti.</p>
@@ -60,9 +64,9 @@
 
   <section class="cta">
     <div class="cta-container">
-      <h2>¡Empieza hoy mismo tu camino al carnet de conducir!</h2>
-      <p>Reserva una clase, conoce nuestros precios o contáctanos sin compromiso.</p>
-      <a href="contacto.html" class="btn">Reservar ahora</a>
+      <h2 data-i18n="cta.titulo">¡Empieza hoy mismo tu camino al carnet de conducir!</h2>
+      <p data-i18n="cta.descripcion">Reserva una clase, conoce nuestros precios o contáctanos sin compromiso.</p>
+      <a href="contacto.html" class="btn" data-i18n="cta.boton">Reservar ahora</a>
     </div>
   </section>
 
@@ -71,5 +75,15 @@
       <p>&copy; 2025 Granada SOM - <span data-i18n="footer.todos">Todos los derechos reservados.</span></p>
     </div>
   </footer>
+
+  <script>
+    const images = document.querySelectorAll('.hero-slider .hero-img');
+    let index = 0;
+    setInterval(() => {
+      images[index].classList.remove('active');
+      index = (index + 1) % images.length;
+      images[index].classList.add('active');
+    }, 5000);
+  </script>
 </body>
 </html>
