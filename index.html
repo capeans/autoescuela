@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoescuela SOM</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <span>📞 07592 152593</span>
+    <span>📍 London</span>
+  </div>
+
+ <!-- Header -->
+<header class="main-header">
+  <div class="logo">🚗 Autoescuela Granada SOM</div>
+
+  <nav class="nav-menu">
+    <a href="#inicio">Home</a>
+    <a href="#servicios">Services</a>
+    <a href="#horario">Schedules</a>
+    <a href="#precios">Prices</a>
+    <a href="politicas.html">Policy</a>
+    <a href="#contacto">Contact</a>
+    
+<select onchange="location = this.value;">
+  <option value="index.html" selected>EN</option>
+  <option value="index-es.html"> ES</option>
+</select>
+  </nav>
+</header>
+
+  <main>
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay">
+      <h1>Driving School in London</h1>
+      <p>Learn to drive safely and confidently</p>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section  id="servicios" class="services">
+    <div class="services-header">
+      <div class="text">
+        <p class="subtitle"># Services </p>
+        <h2><strong>Special Services for</strong> <span>Alumnos SOM</span></h2>
+      </div>
+      <div class="call-box">
+        <div class="call-icon">📱</div>
+        <div class="call-info">
+          <p>Free consultation</p>
+          <h3>07592 152593</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-grid">
+      <div class="service">
+        <img src="imagenes/iconos/idioma.png" alt="Coche" />
+        <h4>Multilingual Lessons</h4>
+        <p>We offer training in English, Spanish, Italian, and Portuguese.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/coche.webp" alt="Teoría" />
+        <h4>Manual and Automatic Cars</h4>
+        <p>We provide practical lessons in both manual and automatic vehicles.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/descuento.png" alt="Simulador" />
+        <h4>Block Booking Discount</h4>
+        <p>Enjoy a 10% discount when booking multiple lessons in advance.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/profesor.png" alt="Gestión" />
+        <h4>Qualified Instructors</h4>
+        <p>Our instructors are highly experienced, friendly, and empathetic.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/recogida.png" alt="Intensivos" />
+        <h4>Free Pick-up Service</h4>
+        <p>We offer complimentary pick-up within our service coverage areas.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/examen.png" alt="WiFi" />
+        <h4>Test Simulation</h4>
+        <p>We conduct practice sessions that simulate real driving test scenarios.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/dinero.png" alt="App" />
+        <h4>Competitive Prices</h4>
+        <p>Our prices are market-aligned and highly competitive.</p>
+      </div>
+      <div class="service">
+        <img src="imagenes/iconos/pass plus.png" alt="Parking" />
+        <h4>Pass Plus Available</h4>
+        <p>We offer the Pass Plus program for advanced and safer driving.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Horario y contacto -->
+<section id="horario" class="schedule-section">
+  <div class="schedule-overlay">
+    <div class="schedule-container">
+      
+      <!-- Horarios -->
+      <div class="schedule-box">
+  <h2>Class Schedule</h2>
+  <table>
+    <tr><td>Monday</td><td>9:00 AM - 6:00 PM</td></tr>
+    <tr><td>Tuesday</td><td>9:00 AM - 6:00 PM</td></tr>
+    <tr><td>Wednesday</td><td>9:00 AM - 6:00 PM</td></tr>
+    <tr><td>Thursday</td><td>9:00 AM - 6:00 PM</td></tr>
+    <tr><td>Friday</td><td>9:00 AM - 6:00 PM</td></tr>
+    <tr><td>Saturday</td><td>10:00 AM - 2:00 PM</td></tr>
+    <tr><td>Sunday</td><td>Closed</td></tr>
+  </table>
+</div>
+
+      <!-- Contacto -->
+      <div class="contact-box">
+        <h2>Información de contacto</h2>
+        <table>
+          <tr><td>Oficina</td><td>Rúa Exemplo 123, London</td></tr>
+          <tr><td>Email</td><td>granada-som@hotmail.com (information only)</td></tr>
+          <tr><td>Teléfono</td><td>07592 152593</td></tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Pricing Section -->
+<section id="precios" class="pricing">
+  <div class="pricing-header">
+    <h2>Choose Your <span>Training Plan</span></h2>
+  </div>
+
+  <!-- Automatic Car Prices -->
+  <h3 class="pricing-subtitle">Automatic Car</h3>
+  <div class="pricing-grid">
+    <div class="price-card" style="background-image: url('imagenes/10.jpg');">
+      <div class="price-content">
+        <h3>01</h3>
+        <h4>1 Hour Plan – Automatic</h4>
+        <p class="price-box">£35</p>
+        <ul>
+          <li>1 hour of practical lessons</li>
+          <li>Mock driving test</li>
+          <li>Free pickup service</li>
+        </ul>
+        <a href="#contacto" class="btn-start">Contact us to book now!</a>
+      </div>
+    </div>
+
+    <div class="price-card" style="background-image: url('imagenes/11.jpg');">
+      <div class="price-content">
+        <h3>02</h3>
+        <h4>5 Hour Plan – Automatic</h4>
+        <p class="price-box">£165</p>
+        <ul>
+          <li>5 hours of practical lessons</li>
+          <li>Mock driving test</li>
+          <li>Free pickup service</li>
+        </ul>
+        <a href="#contacto" class="btn-start">Contact us to book now!</a>
+      </div>
+    </div>
+
+    <div class="price-card" style="background-image: url('imagenes/12.jpg');">
+      <div class="price-content">
+        <h3>03</h3>
+        <h4>10 Hour Plan – Automatic</h4>
+        <p class="price-box">£290</p>
+        <ul>
+          <li>10 hours of practical lessons</li>
+          <li>Mock driving test</li>
+          <li>Free pickup service</li>
+        </ul>
+        <a href="#contacto" class="btn-start">Contact us to book now!</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Manual Car Prices -->
+  <h3 class="pricing-subtitle">Manual Car</h3>
+  <div class="pricing-grid pricing-manual">
+    <div class="price-card" style="background-image: url('imagenes/13.jpg');">
+      <div class="price-content">
+        <h3>04</h3>
+        <h4>1 Hour Plan – Manual</h4>
+        <p class="price-box">£45</p>
+        <ul>
+          <li>1 hour of practical lessons</li>
+          <li>Mock driving test</li>
+          <li>Free pickup service</li>
+        </ul>
+        <a href="#contacto" class="btn-start">Contact us to book now!</a>
+      </div>
+    </div>
+
+    <div class="price-card" style="background-image: url('imagenes/14.jpg');">
+      <div class="price-content">
+        <h3>05</h3>
+        <h4>5 Hour Plan – Manual</h4>
+        <p class="price-box">£200</p>
+        <ul>
+          <li>5 hours of practical lessons</li>
+          <li>Mock driving test</li>
+          <li>Free pickup service</li>
+        </ul>
+        <a href="#contacto" class="btn-start">Contact us to book now!</a>
+      </div>
+    </div>
+
+    <div class="price-card" style="background-image: url('imagenes/15.jpg');">
+      <div class="price-content">
+        <h3>06</h3>
+        <h4>10 Hour Plan – Manual</h4>
+        <p class="price-box">£350</p>
+        <ul>
+          <li>10 hours of practical lessons</li>
+          <li>Mock driving test</li>
+          <li>Free pickup service</li>
+        </ul>
+        <a href="#contacto" class="btn-start">Contact us to book now!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Additional Price Information -->
+<div class="pricing-extras">
+  <div class="extras-box">
+    <div class="extras-col">
+      <h3>Additional Services</h3>
+      <ul>
+        <li><strong>Driving test car hire:</strong> From £150 <br><small>(includes 1½ hour lesson before the test)</small></li>
+        <li><strong>Motorway lessons:</strong> £35</li>
+        <li><strong>Pass Plus:</strong> £210 – 6 hours</li>
+      </ul>
+    </div>
+    <div class="extras-col">
+      <h3>Test Centres</h3>
+      <p class="price-note">£150 (pickup 1½ hours before the test)</p>
+      <ul>
+        <li>Greenford Horsenden Lane</li>
+        <li>Southall</li>
+        <li>Mill Hill</li>
+        <li>Hendon</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</main>
+
+<!-- Footer -->
+<footer id="contacto" class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3>Autoescuela SOM</h3>
+      <p>Your driving school in London. Safety, confidence, and experience at your service.</p>
+    </div>
+    <div class="footer-right">
+      <h4>Contact</h4>
+      <p>📍 Rúa Exemplo 123, London</p>
+      <p>📞 07592 152593</p>
+      <p>✉️ granada-som@hotmail.com (information only)</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Autoescuela SOM. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
