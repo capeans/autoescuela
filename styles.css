@@ -2,9 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
 main {
   flex: 1;
 }
+
 
 /* Fuente base */
 body {
@@ -194,35 +196,92 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+/* Ajustes para pantallas pequeñas */
+#menu-toggle {
+  display: none;
+}
 
+/* Icono de menú hamburguesa */
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Mostrar icono en móvil */
 @media (max-width: 768px) {
-  .services-header {
+  .menu-icon {
+    display: block;
+    color: #1e1e2f;
+  }
+
+  .nav-menu {
+    display: none;
     flex-direction: column;
-    align-items: flex-start;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    z-index: 998;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu a, .nav-menu select {
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+  .hero-overlay h1 {
+    font-size: 28px;
+  }
+  .hero-overlay p {
+    font-size: 16px;
+  }
+
+  .nav-menu a, .nav-menu select {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .services-grid, .pricing-grid, .pricing-manual {
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
     gap: 20px;
   }
 
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .services-grid {
-    grid-template-columns: 1fr;
+  .top-bar {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
   }
 
   .call-box {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
   }
 
-  .call-icon {
-    font-size: 28px;
+  .schedule-container {
+    flex-direction: column;
   }
 
-  .call-info h3 {
-    font-size: 18px;
+  .price-card {
+    min-height: auto;
+    background-size: cover;
   }
 }
 
