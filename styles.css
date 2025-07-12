@@ -2,11 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
 main {
   flex: 1;
 }
-
 
 /* Fuente base */
 body {
