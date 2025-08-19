@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Granada SOM</title>
+    <link rel="icon" href="imagenes/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <span>📞 07592 152593</span>
+        <span>📍 London</span>
+    </div>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="Logo GSOM" class="logo-img">
+            <span class="logo-text">Escola de Condução Granada SOM</span>
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <nav class="nav-menu">
+            <a href="#inicio">Início</a>
+            <a href="#servicios">Serviços</a>
+            <a href="#horario">Horários</a>
+            <a href="#precios">Preços</a>
+            <a href="politicas-pt.html">Política</a>
+            <a href="#contacto">Contato</a>
+            <select onchange="location = this.value;">
+                <option value="index.html">EN</option>
+                <option value="index-es.html">ES</option>
+                <option value="index-it.html">IT</option>
+                <option value="index-pt.html" selected>PT</option>
+            </select>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <div class="services-header">
+            <div class="text">
+                <p class="subtitle"># Services </p>
+                <h2><strong>Serviços especiais para</strong> <span>Alunos SOM</span></h2>
+            </div>
+            <div class="call-box">
+                <div class="call-icon">📱</div>
+                <div class="call-info">
+                    <p>Consulta gratuita</p>
+                    <h3>07592 152593</h3>
+                </div>
+            </div>
+        </div>
+        <div class="services-grid">
+            <div class="service">
+                <img alt="Coche" src="imagenes/iconos/idioma.png" />
+                <h4>Aulas multilíngues</h4>
+                <p>Oferecemos treinamento em inglês, espanhol, italiano e português.</p>
+            </div>
+            <div class="service">
+                <img alt="Teoría" src="imagenes/iconos/coche.webp" />
+                <h4>Carros manuais e automáticos</h4>
+                <p>Oferecemos aulas práticas em veículos manuais e automáticos.</p>
+            </div>
+            <div class="service">
+                <img alt="Simulador" src="imagenes/iconos/descuento.png" />
+                <h4>Desconto por pacote de aulas</h4>
+                <p>Aproveite 10% de desconto ao reservar várias aulas com antecedência.</p>
+            </div>
+            <div class="service">
+                <img alt="Gestión" src="imagenes/iconos/profesor.png" />
+                <h4>Instrutores qualificados</h4>
+                <p>Nossos instrutores são experientes, amigáveis e empáticos.</p>
+            </div>
+            <div class="service">
+                <img alt="Intensivos" src="imagenes/iconos/recogida.png" />
+                <h4>Serviço de busca gratuito</h4>
+                <p>Oferecemos busca gratuita dentro da nossa área de cobertura.</p>
+            </div>
+            <div class="service">
+                <img alt="WiFi" src="imagenes/iconos/examen.png" />
+                <h4>Teste prático</h4>
+                <p>Realizamos sessões práticas que simulam o exame de direção real.</p>
+            </div>
+            <div class="service">
+                <img alt="App" src="imagenes/iconos/dinero.png" />
+                <h4>Preços competitivos</h4>
+                <p>Nossos preços estão alinhados ao mercado e são altamente competitivos.</p>
+            </div>
+            <div class="service">
+                <img alt="Parking" src="imagenes/iconos/pass plus.png" />
+                <h4>Programa Pass Plus disponível</h4>
+                <p>Oferecemos o programa Pass Plus para uma condução mais avançada e segura.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Horario y contacto -->
+    <section class="schedule-section" id="horario">
+        <div class="schedule-overlay">
+            <div class="schedule-container">
+                <!-- Horarios -->
+                <div class="schedule-box">
+                    <h2>Horário das aulas</h2>
+                    <table>
+                        <tr>
+                            <td>Segunda-feira</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Terça-feira</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-feira</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta-feira</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-feira</td>
+                            <td>9:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>10:00 AM - 2:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Contacto -->
+                <div class="contact-box">
+                    <h2>Informações de contato</h2>
+                    <table>
+                        <tr>
+                            <td>Telefone</td>
+                            <td>07592 152593</td>
+                        </tr>
+                        <tr>
+                            <td>Ligações ou mensagens (WhatsApp)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section -->
+    <section class="pricing" id="precios">
+        <div class="pricing-header">
+            <h2>Escolha seu<span>Plano de Treinamento</span></h2>
+        </div>
+        <!-- Manual Car Prices -->
+        <h3 class="pricing-subtitle">Aulas com carro manual</h3>
+        <div class="pricing-grid pricing-manual">
+            <!-- Plan 1 Hour -->
+            <div class="price-card" style="background-image: url('imagenes/13.jpg');">
+                <div class="price-content">
+                    <div>
+                        <p class="plan-duration">Duração:<strong>1 hour</strong></p>
+                    </div>
+                    <p class="price-box">£45</p>
+                    <a class="btn-start" href="#contacto">Entre em contato para agendar agora!</a>
+                </div>
+            </div>
+            <!-- Plan 5 Hours -->
+            <div class="price-card" style="background-image: url('imagenes/14.jpg');">
+                <div class="price-content">
+                    <div>
+                        <p class="plan-duration">Duração:<strong>5 hours</strong></p>
+                    </div>
+                    <p class="price-box">£200</p>
+                    <a class="btn-start" href="#contacto">Entre em contato para agendar agora!</a>
+                </div>
+            </div>
+            <!-- Plan 10 Hours -->
+            <div class="price-card" style="background-image: url('imagenes/15.jpg');">
+                <div class="price-content">
+                    <div>
+                        <p class="plan-duration">Duração:<strong>10 hours</strong></p>
+                    </div>
+                    <p class="price-box">£350</p>
+                    <a class="btn-start" href="#contacto">Entre em contato para agendar agora!</a>
+                </div>
+            </div>
+        </div>
+        <!-- Additional Price Information -->
+        <div class="pricing-extras">
+            <div class="extras-box">
+                <div class="extras-col">
+                    <h3>Serviços adicionais</h3>
+                    <ul>
+                        <li><strong>Aluguel de carro para teste de direção:</strong> From £150 <br /><small>(inclui
+                                1h30 de aula antes do teste)</small></li>
+                        <li><strong>Aulas em rodovia:</strong> £35</li>
+                        <li><strong>Pass Plus:</strong> £210 – 6 hours</li>
+                    </ul>
+                </div>
+                <div class="extras-col">
+                    <h3>Centros de Teste</h3>
+                    <p class="price-note">£150 (pickup 1½ hours before the test)</p>
+                    <ul>
+                        <li>Greenford Horsenden Lane</li>
+                        <li>Southall</li>
+                        <li>Mill Hill</li>
+                        <li>Hendon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Autoescuela SOM</h3>
+                <p>Sua autoescola em Londres. Segurança, confiança e experiência ao seu dispor.</p>
+            </div>
+            <div class="footer-right">
+                <h4>Contato</h4>
+                <p>📞 07592 152593</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Autoescuela SOM. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

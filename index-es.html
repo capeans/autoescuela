@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Autoescuela SOM</title>
+  <title>Granada SOM</title>
+  <link rel="icon" href="imagenes/logo.png" type="image/png">
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -15,329 +17,257 @@
     <span>📞 07592 152593</span>
     <span>📍 Londres</span>
   </div>
- 
-<!-- Header -->
-<header class="main-header">
-  <div class="logo">🚗 Autoescuela Granada SOM</div>
 
-  <input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="menu-icon">☰</label>
+  <!-- Header -->
+  <header class="main-header">
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="Logo GSOM" class="logo-img">
+            <span class="logo-text">Autoescuela Granada SOM</span>
+        </div>
 
-  <nav class="nav-menu">
-    <a href="#inicio">Inico</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#horario">Horarios</a>
-    <a href="#precios">Precios</a>
-    <a href="politicas-es.html">Politicas</a>
-    <a href="#contacto">Contacto</a>
-<select onchange="location = this.value;">
-  <option value="index.html">EN</option>
-  <option value="index-es.html" selected> ES</option>
-</select>
-  </nav>
-</header>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="nav-menu">
+      <a href="#inicio">Inico</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#horario">Horarios</a>
+      <a href="#precios">Precios</a>
+      <a href="politicas-es.html">Politicas</a>
+      <a href="#contacto">Contacto</a>
+
+      <select onchange="location = this.value;">
+        <option value="index.html">EN</option>
+        <option value="index-es.html" selected>ES</option>
+        <option value="index-it.html">IT</option>
+        <option value="index-pt.html">PT</option>
+      </select>
+    </nav>
+  </header>
 
 
   <main>
-  <!-- Hero Section -->
-  <section id="inicio" class="hero">
-    <div class="hero-overlay">
-      <h1>Autoescuela en Londres</h1>
-      <p>Aprende a conducir con seguridad y confianza</p>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+    </section>
 
 
-  <!-- Servicios -->
-  <section  id="servicios" class="services">
-    <div class="services-header">
-      <div class="text">
-        <p class="subtitle"># Nuestros Servicios</p>
-        <h2><strong>Servicios Especiales para</strong> <span>Alumnos SOM</span></h2>
-      </div>
-      <div class="call-box">
-        <div class="call-icon">📱</div>
-        <div class="call-info">
-          <p>Consulta sin compromiso</p>
-          <h3>07592 152593</h3>
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+      <div class="services-header">
+        <div class="text">
+          <p class="subtitle"># Nuestros Servicios</p>
+          <h2><strong>Servicios Especiales para</strong> <span>Alumnos SOM</span></h2>
+        </div>
+        <div class="call-box">
+          <div class="call-icon">📱</div>
+          <div class="call-info">
+            <p>Consulta sin compromiso</p>
+            <h3>07592 152593</h3>
+          </div>
         </div>
       </div>
+
+
+      <div class="services-grid">
+        <div class="service">
+          <img src="imagenes/iconos/idioma.png" alt="Coche" />
+          <h4>Clases multilingües</h4>
+          <p>Ofrecemos formación en inglés, español, italiano y portugués.</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/coche.webp" alt="Teoría" />
+          <h4>Cambio manual y automático</h4>
+          <p>Disponemos de clases prácticas tanto en vehículos manuales como automáticos.</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/descuento.png" alt="Simulador" />
+          <h4>Descuento por reserva en bloque</h4>
+          <p>Aprovecha un 10% de descuento al reservar múltiples clases por adelantado.</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/profesor.png" alt="Gestión" />
+          <h4>Instructores cualificados</h4>
+          <p>Contamos con instructores altamente experimentados, amables y empáticos.</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/recogida.png" alt="Intensivos" />
+          <h4>Servicio de recogida gratuito</h4>
+          <p>Ofrecemos recogida sin coste adicional dentro de nuestras zonas de cobertura.</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/examen.png" alt="WiFi" />
+          <h4>Simulación de examen</h4>
+          <p>Realizamos prácticas que simulan situaciones reales del examen práctico</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/dinero.png" alt="App" />
+          <h4>Precios competitivos</h4>
+          <p>Nuestros precios están ajustados al mercado y son altamente competitivos.</p>
+        </div>
+        <div class="service">
+          <img src="imagenes/iconos/pass plus.png" alt="Parking" />
+          <h4>Pass Plus disponible</h4>
+          <p>Ofrecemos el programa Pass Plus para una conducción más avanzada y segura.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Horario y contacto -->
+    <section id="horario" class="schedule-section">
+      <div class="schedule-overlay">
+        <div class="schedule-container">
+
+          <!-- Horarios -->
+          <div class="schedule-box">
+            <h2>Horario de clases</h2>
+            <table>
+              <tr>
+                <td>Lunes</td>
+                <td>9:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Martes</td>
+                <td>9:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Miércoles</td>
+                <td>9:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Jueves</td>
+                <td>9:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Viernes</td>
+                <td>9:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Sábado</td>
+                <td>10:00 - 14:00</td>
+              </tr>
+              <tr>
+                <td>Domingo</td>
+                <td>Cerrado</td>
+              </tr>
+            </table>
+          </div>
+
+
+          <!-- Contacto -->
+          <div class="contact-box">
+            <h2>Información de contacto</h2>
+            <table>
+              <tr>
+                <td>Teléfono</td>
+                <td>07592 152593</td>
+              </tr>
+              <tr>
+                <td>Llamadas o mensajes (Whatsapp)</td>
+              </tr>
+            </table>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sección de Precios -->
+    <section id="precios" class="pricing">
+      <div class="pricing-header">
+        <h2>Elige tu <span>Plan de Formación</span></h2>
+      </div>
+
+
+      <!-- Precios para Manual -->
+      <h3 class="pricing-subtitle">Coche Manual</h3>
+      <div class="pricing-grid pricing-manual">
+        <div class="price-card" style="background-image: url('imagenes/13.jpg');">
+          <div class="price-content">
+            <h3>04</h3>
+            <h4>Plan 1 hora - Manual</h4>
+            <p class="price-box">£45</p>
+            <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
+          </div>
+        </div>
+
+
+        <div class="price-card" style="background-image: url('imagenes/14.jpg');">
+          <div class="price-content">
+            <h3>05</h3>
+            <h4>Plan 5 horas - Manual</h4>
+            <p class="price-box">£200</p>
+            <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
+          </div>
+        </div>
+
+
+        <div class="price-card" style="background-image: url('imagenes/15.jpg');">
+          <div class="price-content">
+            <h3>06</h3>
+            <h4>Plan 10 horas - Manual</h4>
+            <p class="price-box">£350</p>
+            <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+      <!-- Información adicional de precios -->
+      <div class="pricing-extras">
+        <div class="extras-box">
+          <div class="extras-col">
+            <h3>Servicios adicionales</h3>
+            <ul>
+              <li><strong>Alquiler de coche para el examen práctico:</strong> Desde £150 <br><small>(incluye clase de 1½
+                  h antes del test)</small></li>
+              <li><strong>Clases en autopista:</strong> £35</li>
+              <li><strong>Pass Plus:</strong> £210 - 6 hrs</li>
+            </ul>
+          </div>
+          <div class="extras-col">
+            <h3>Centros de Examen</h3>
+            <p class="price-note">£150 (recogida 1½ h antes del test)</p>
+            <ul>
+              <li>Greenford Horsenden Lane</li>
+              <li>Southall</li>
+              <li>Mill Hill</li>
+              <li>Hendon</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer id="contacto" class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h3>Autoescuela SOM</h3>
+        <p>Tu centro de formación vial en Londres. Seguridad, confianza y experiencia a tu alcance.</p>
+      </div>
+      <div class="footer-right">
+        <h4>Contacto</h4>
+        <p>📞 07592 152593</p>
+      </div>
     </div>
-
-
-    <div class="services-grid">
-      <div class="service">
-        <img src="imagenes/iconos/idioma.png" alt="Coche" />
-        <h4>Clases multilingües</h4>
-        <p>Ofrecemos formación en inglés, español, italiano y portugués.</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/coche.webp" alt="Teoría" />
-        <h4>Cambio manual y automático</h4>
-        <p>Disponemos de clases prácticas tanto en vehículos manuales como automáticos.</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/descuento.png" alt="Simulador" />
-        <h4>Descuento por reserva en bloque</h4>
-        <p>Aprovecha un 10% de descuento al reservar múltiples clases por adelantado.</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/profesor.png" alt="Gestión" />
-        <h4>Instructores cualificados</h4>
-        <p>Contamos con instructores altamente experimentados, amables y empáticos.</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/recogida.png" alt="Intensivos" />
-        <h4>Servicio de recogida gratuito</h4>
-        <p>Ofrecemos recogida sin coste adicional dentro de nuestras zonas de cobertura.</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/examen.png" alt="WiFi" />
-        <h4>Simulación de examen</h4>
-        <p>Realizamos prácticas que simulan situaciones reales del examen práctico</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/dinero.png" alt="App" />
-        <h4>Precios competitivos</h4>
-        <p>Nuestros precios están ajustados al mercado y son altamente competitivos.</p>
-      </div>
-      <div class="service">
-        <img src="imagenes/iconos/pass plus.png" alt="Parking" />
-        <h4>Pass Plus disponible</h4>
-        <p>Ofrecemos el programa Pass Plus para una conducción más avanzada y segura.</p>
-      </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Autoescuela SOM. Todos los derechos reservados.</p>
     </div>
-  </section>
-
-
-
-
-  <!-- Horario y contacto -->
-<section id="horario" class="schedule-section">
-  <div class="schedule-overlay">
-    <div class="schedule-container">
-     
-      <!-- Horarios -->
-      <div class="schedule-box">
-        <h2>Horario de clases</h2>
-        <table>
-          <tr><td>Lunes</td><td>9:00 - 18:00</td></tr>
-          <tr><td>Martes</td><td>9:00 - 18:00</td></tr>
-          <tr><td>Miércoles</td><td>9:00 - 18:00</td></tr>
-          <tr><td>Jueves</td><td>9:00 - 18:00</td></tr>
-          <tr><td>Viernes</td><td>9:00 - 18:00</td></tr>
-          <tr><td>Sábado</td><td>10:00 - 14:00</td></tr>
-          <tr><td>Domingo</td><td>Cerrado</td></tr>
-        </table>
-      </div>
-
-
-      <!-- Contacto -->
-      <div class="contact-box">
-        <h2>Información de contacto</h2>
-        <table>
-          <tr><td>Oficina</td><td>Rúa Exemplo 123, Londres</td></tr>
-          <tr><td>Email</td><td>granada-som@hotmail.com (information only)</td></tr>
-          <tr><td>Teléfono</td><td>07592 152593</td></tr>
-        </table>
-      </div>
-
-
-    </div>
-  </div>
-</section>
-
-
-<!-- Sección de Precios -->
-<section id="precios" class="pricing">
-  <div class="pricing-header">
-    <h2>Elige tu <span>Plan de Formación</span></h2>
-  </div>
-
-
-  <!-- Precios para Automático -->
-  <h3 class="pricing-subtitle">Coche Automático</h3>
-  <div class="pricing-grid">
-    <div class="price-card" style="background-image: url('imagenes/10.jpg');">
-      <div class="price-content">
-        <h3>01</h3>
-        <h4>Plan 1 hora - Automatico</h4>
-        <p class="price-box">35€</p>
-        <ul>
-          <li>1 hora clases prácticas</li>
-          <li>Simulación de examen</li>
-          <li>Servicio de recogida gratuito</li>
-        </ul>
-        <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
-      </div>
-    </div>
-
-
-    <div class="price-card" style="background-image: url('imagenes/11.jpg');">
-      <div class="price-content">
-        <h3>02</h3>
-        <h4>Plan 5 horas - Automatico</h4>
-        <p class="price-box">165€</p>
-        <ul>
-          <li>5 hora clases prácticas</li>
-          <li>Simulación de examen</li>
-          <li>Servicio de recogida gratuito</li>
-        </ul>
-        <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
-      </div>
-    </div>
-
-
-    <div class="price-card" style="background-image: url('imagenes/12.jpg');">
-      <div class="price-content">
-        <h3>03</h3>
-        <h4>Plan 10 horas - Automatico</h4>
-        <p class="price-box">290€</p>
-        <ul>
-          <li>10 hora clases prácticas</li>
-          <li>Simulación de examen</li>
-          <li>Servicio de recogida gratuito</li>
-        </ul>
-        <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Precios para Manual -->
-  <h3 class="pricing-subtitle">Coche Manual</h3>
-  <div class="pricing-grid pricing-manual">
-    <div class="price-card" style="background-image: url('imagenes/13.jpg');">
-      <div class="price-content">
-        <h3>04</h3>
-        <h4>Plan 1 hora - Manual</h4>
-        <p class="price-box">45€</p>
-        <ul>
-          <li>1 hora clases prácticas</li>
-          <li>Simulación de examen</li>
-          <li>Servicio de recogida gratuito</li>
-        </ul>
-        <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
-      </div>
-    </div>
-
-
-    <div class="price-card" style="background-image: url('imagenes/14.jpg');">
-      <div class="price-content">
-        <h3>05</h3>
-        <h4>Plan 5 horas - Manual</h4>
-        <p class="price-box">200€</p>
-        <ul>
-          <li>5 hora clases prácticas</li>
-          <li>Simulación de examen</li>
-          <li>Servicio de recogida gratuito</li>
-        </ul>
-        <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
-      </div>
-    </div>
-
-
-    <div class="price-card" style="background-image: url('imagenes/15.jpg');">
-      <div class="price-content">
-        <h3>06</h3>
-        <h4>Plan 10 horas - Manual</h4>
-        <p class="price-box">350€</p>
-        <ul>
-          <li>10 hora clases prácticas</li>
-          <li>Simulación de examen</li>
-          <li>Servicio de recogida gratuito</li>
-        </ul>
-        <a href="#contacto" class="btn-start">Contactanos para reserva ya!</a>
-              </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<!-- Información adicional de precios -->
-<div class="pricing-extras">
-  <div class="extras-box">
-    <div class="extras-col">
-      <h3>Servicios adicionales</h3>
-      <ul>
-        <li><strong>Alquiler de coche para el examen práctico:</strong> Desde £150 <br><small>(incluye clase de 1½ h antes del test)</small></li>
-        <li><strong>Clases en autopista:</strong> £35</li>
-        <li><strong>Pass Plus:</strong> £210 - 6 hrs</li>
-      </ul>
-    </div>
-    <div class="extras-col">
-      <h3>Centros de Examen</h3>
-      <p class="price-note">£150 (recogida 1½ h antes del test)</p>
-      <ul>
-        <li>Greenford Horsenden Lane</li>
-        <li>Southall</li>
-        <li>Mill Hill</li>
-        <li>Hendon</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-</main>
-
-
-<!-- Footer -->
-<footer id="contacto" class="footer">
-  <div class="footer-content">
-    <div class="footer-left">
-      <h3>Autoescuela SOM</h3>
-      <p>Tu centro de formación vial en Londres. Seguridad, confianza y experiencia a tu alcance.</p>
-    </div>
-    <div class="footer-right">
-      <h4>Contacto</h4>
-      <p>📍 Rúa Exemplo 123, Santiago</p>
-      <p>📞 07592 152593</p>
-      <p>✉️ info@autoescuelasom.com</p>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2025 Autoescuela SOM. Todos los derechos reservados.</p>
-  </div>
-</footer>
-
-
-
-
+  </footer>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
